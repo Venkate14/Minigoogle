@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Google - App Landing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #22c1c3 0%, #38d39f 100%);
+            color: #222;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+        }
+
+        .main-section {
+            color: #fff;
+            text-align: center;
+            padding: 60px 0 35px 0;
+        }
+
+        .main-section h1 {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        .main-section .btn {
+            font-size: 1.2rem;
+            margin-top: 28px;
+            padding: 12px 34px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            margin-top: 45px;
+            margin-bottom: 40px;
+            color: #fff;
+        }
+
+        .stats div {
+            margin: 0 34px;
+            text-align: center;
+        }
+
+        .stats h2 {
+            font-size: 2.0rem;
+            font-weight: bold;
+        }
+
+        .features-grid {
+            background: #f9fbfc;
+            border-radius: 16px;
+            padding: 40px 15px;
+            margin-bottom: 35px;
+            box-shadow: 0 2px 18px rgba(0, 0, 0, 0.07);
+        }
+
+        .feature-card {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 1px 12px rgba(0, 0, 0, 0.06);
+            padding: 27px;
+            margin-bottom: 18px;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .feature-card h4 {
+            font-weight: 700;
+            margin-bottom: 9px;
+        }
+
+        .icon-circle {
+            width: 37px;
+            height: 37px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            border-radius: 12px;
+            background: #e3f6fd;
+            margin-right: 10px;
+        }
+
+        /* Tech Icons Section */
+        .tech-section {
+            background: #f8f8fa;
+            border-radius: 18px;
+            padding: 38px 18px;
+            margin-bottom: 20px;
+        }
+
+        .tech-block {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .tech-block h5 {
+            margin: 10px 0 8px 0;
+            font-weight: 700;
+        }
+
+        /* About */
+        .about-section {
+            background: #f6f8fa;
+            border-radius: 18px;
+            padding: 40px 19px;
+            margin-bottom: 22px;
+        }
+
+        .about-section h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        /* Key Features List */
+        .features-list {
+            background: #f9fbfc;
+            border-radius: 14px;
+            padding: 22px 18px;
+            margin-bottom: 20px;
+        }
+
+        .features-list ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .features-list ul li {
+            margin-bottom: 9px;
+            font-size: 1.13rem;
+        }
+
+        .features-list ul li:before {
+            content: "✓";
+            color: #18c291;
+            font-weight: bold;
+            margin-right: 7px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            background: #f3f7fa;
+            color: #222;
+            border-top: 1px solid #e7e7ef;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 991px) {
+            .stats {
+                flex-direction: column;
+            }
+
+            .stats div {
+                margin-bottom: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main Section -->
+    <div class="main-section">
+        <h1>Mini Google</h1>
+        <p style="font-size:1.45rem; margin-bottom:16px;">
+            Discover information instantly. Search millions of websites and get real-time answers with our advanced mobile app.
+        </p>
+        <p style="font-size:1.1rem;">
+            Built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Bootstrap</strong> for speed and modern performance.
+        </p>
+        <a href="https://warehouse.appilix.com/uploads/app-apk-6909da631712e-1762253411.apk" class="btn btn-light">
+            <span class="mr-2">&#8681;</span> Download APK
+        </a>
+        <div class="stats">
+            <div>
+                <h2>10M+</h2>
+                <span>Web Pages</span>
+            </div>
+            <div>
+                <h2>100+</h2>
+                <span>Languages</span>
+            </div>
+            <div>
+                <h2>Free</h2>
+                <span>Forever</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Grid -->
+    <div class="container features-grid">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="feature-card d-flex align-items-start">
+                    <span class="icon-circle"><b>&#128269;</b></span>
+                    <div>
+                        <h4>Real-Time Search</h4>
+                        <p>Search millions of websites instantly with our powerful search engine. Get immediate results as you type, with summaries and answers to help you find exactly what you want.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="feature-card d-flex align-items-start">
+                    <span class="icon-circle"><b>&#128241;</b></span>
+                    <div>
+                        <h4>Mobile Optimized</h4>
+                        <p>Designed for Android devices with a clean, fast, and smooth user interface. Enjoy fast loading times and a responsive layout on any device.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="feature-card d-flex align-items-start">
+                    <span class="icon-circle"><b>&#x21c6;</b></span>
+                    <div>
+                        <h4>Modern Technology</h4>
+                        <p>Uses HTML, CSS, and Bootstrap for performance, reliability, and a smooth experience. The latest web tech under the hood.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="feature-card d-flex align-items-start">
+                    <span class="icon-circle"><b>&#9889;</b></span>
+                    <div>
+                        <h4>Fast & Lightweight</h4>
+                        <p>Optimized for efficiency. Instant results. Uses minimal device resources, runs smoothly on all devices—even older ones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tech Section / Icons -->
+    <div class="container tech-section">
+        <h2 class="text-center mb-4">Built With Modern Web Technologies</h2>
+        <p class="text-center mb-4">Powered by the fundamental building blocks of the web</p>
+        <div class="row">
+            <div class="col-md-4 tech-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5" width="70">
+                <h5 style="color:#df6512;">HTML5</h5>
+                <p>Semantic markup for structured content and modern web standards</p>
+            </div>
+            <div class="col-md-4 tech-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3" width="70">
+                <h5 style="color:#1780cb;">CSS3</h5>
+                <p>Beautiful styling with animations and responsive design</p>
+            </div>
+            <div class="col-md-4 tech-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="65">
+                <h5 style="color:#d6b101;">JavaScript</h5>
+                <p>Interactive functionality and real-time search capabilities</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container about-section">
+        <h2 class="text-center">About Mini Google</h2>
+        <p class="text-center mb-0">
+            A powerful mobile application that brings the web's knowledge to your fingertips.
+        </p>
+        <div style="background:#fff; border-radius:12px; margin-top:17px; padding:14px;">
+            <h4>What is Mini Google?</h4>
+            <p>
+                Mini Google is a modern mobile application designed to make searching the web easier and faster than ever. With our intuitive interface, instantly search through millions of web pages, discover new topics, and access the world's information right from your Android device. Whether you're a student, researcher, or just curious, Mini Google provides quick access to reliable answers on nearly any topic imaginable.
+            </p>
+        </div>
+    </div>
+
+    <!-- Key Features List -->
+    <div class="container features-list">
+        <h4>Key Features</h4>
+        <ul class="row">
+            <li class="col-md-6">Access to over 10 million web pages</li>
+            <li class="col-md-6">Available in 100+ languages</li>
+            <li class="col-md-6">Instant previews and summaries</li>
+            <li class="col-md-6">High-quality results on all devices</li>
+            <li class="col-md-6">Clean, ad-free user experience</li>
+            <li class="col-md-6">Completely free to download and use</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <div class="d-flex justify-content-between align-items-center flex-wrap container">
+            <span style="font-size:1.3rem; font-weight:600;">Mini Google</span>
+            <span>Your gateway to unlimited information</span>
+            <a href="https://warehouse.appilix.com/uploads/app-apk-6909da631712e-1762253411.apk" class="btn btn-info" style="margin:12px 0;">
+                &#8681; Download APK
+            </a>
+        </div>
+        <hr>
+        <span>&copy; 2025 Mini Google. All rights reserved.</span>
+    </div>
+</body>
+
+</html>
